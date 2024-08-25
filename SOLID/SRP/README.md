@@ -6,7 +6,7 @@ The Single Responsibility Principle (SRP) is one of the five SOLID principles of
 
 In this README, we will explore SRP using three real-world examples: Single Sign-On (SSO), FileManager, and Customer Relationship Management (CRM) systems. These examples will illustrate how SRP can be applied to improve code structure and maintainability.
 
-## 1. Single Sign-On (SSO)
+## Single Sign-On (SSO)
 
 ### Scenario
 
@@ -22,7 +22,7 @@ In an SRP-compliant SSO system, responsibilities are clearly divided:
 
 By separating these responsibilities, each class or module focuses on a single aspect of the SSO system. This separation makes the system easier to maintain and extend. For example, changes to the token management logic don’t affect the authentication or database management code.
 
-## 2. FileManager
+## FileManager
 
 ### Scenario
 
@@ -38,7 +38,7 @@ In an SRP-compliant FileManager system, responsibilities are separated into dist
 
 By applying SRP, each class focuses on one specific type of file operation. This makes it easier to update or replace parts of the system without affecting others. For example, if you need to change how files are logged, you only need to modify the `FileLogger` class without touching the file reading or writing functionality.
 
-## 3. Customer Relationship Management (CRM)
+## Customer Relationship Management (CRM)
 
 ### Scenario
 
